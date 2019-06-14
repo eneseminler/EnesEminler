@@ -1,2 +1,0 @@
-# EnesEminler
-Personal Web Site

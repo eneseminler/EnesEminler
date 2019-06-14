@@ -1,0 +1,23 @@
+.button {
+width: 200px;
+height: 50px;
+
+border: 1px green solid;
+border-radius: 25px;
+background-color: rgb(16, 16, 16);
+}
+.button:hover{
+    background-color: gray;
+    border-color: green;
+}
+.button .link{
+display: inline-block;
+text-decoration-line: none;
+color: green;
+width: 180px;
+height: 50px;
+padding: 15px;
+}
+.link:hover{
+    color: black;
+}

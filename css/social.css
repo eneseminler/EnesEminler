@@ -1,0 +1,248 @@
+
+.social-media {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  /*display: flex;*/
+  margin: 0;
+  margin-left: 750px;
+  padding: 0;
+}
+.social-media a .fa {
+  font-size: 32px;
+  line-height: 64px;
+  transition: 0.3s;
+  
+}
+.social-media a .fab {
+  font-size: 32px;
+  line-height: 64px;
+  transition: 0.3s;
+}
+.social-media a .fas {
+  font-size: 32px;
+  line-height: 64px;
+  transition: 0.3s;
+}
+
+.one .social-media a:nth-child(1) .fa {
+  color: #34a853;
+}
+.one .social-media a:nth-child(2) .fab {
+  color: #007fb1;
+}
+.one .social-media a:nth-child(3) .fab {
+  color: #00aced;
+}
+.one .social-media a:nth-child(4) .fab {
+  color: #6e5494;
+}
+
+
+.two .social-media a:nth-child(1) .fab {
+  color: #f48024;
+}
+.two .social-media a:nth-child(2) .fab {
+  color: #fc4c02;
+}
+.two .social-media a:nth-child(3) .fas {
+  color: #80A529;
+}
+.two .social-media a:nth-child(4) .fab {
+  color: #000000;
+}
+
+.social-media a {
+  position: relative;
+  display: block;
+  width: 64px;
+  height: 64px;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+  box-shadow: 10px 0px 10px #000;
+  transition: 0.3s;
+}
+
+.social-media a::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 3px;
+  background: rgba(0, 0, 0, 0.2);
+  height: 10%;
+  width: 100%;
+  transform: skewX(-45deg);
+  transition: 0.3s;
+}
+.social-media a::after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 64px;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 10%;
+  transform: skewY(-45deg);
+  transition: 0.3s;
+}
+.social-media a:hover {
+  transform: translate(-10%, 10%);
+  box-shadow: 10px 0px 35px #000;
+  transition: 0.3s;
+}
+
+
+
+.one .social-media a:nth-child(1):hover {
+  background: #34a853;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(1):hover .fa {
+  color: #fff;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(1):hover::after {
+  background: #2b8543;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(1):hover::before {
+  background: #2b8543;
+  transition: 0.3s;
+}
+
+
+
+.one .social-media a:nth-child(2):hover {
+  background: #007fb1;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(2):hover .fab {
+  color: #fff;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(2):hover::after {
+  background: #4489be;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(2):hover::before {
+  background: #76bcf1;
+  transition: 0.3s;
+}
+
+
+
+.one .social-media a:nth-child(3):hover {
+  background: #00aced;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(3):hover .fab {
+  color: #fff;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(3):hover::after {
+  background: #128ab6;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(3):hover::before {
+  background: #0db3f0;
+  transition: 0.3s;
+}
+
+
+.one .social-media a:nth-child(4):hover {
+  background: #6e5494;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(4):hover .fab {
+  color: #fff;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(4):hover::after {
+  background: #4f3b6d;
+  transition: 0.3s;
+}
+.one .social-media a:nth-child(4):hover::before {
+  background: #403058;
+  transition: 0.3s;
+}
+
+
+.two .social-media a:nth-child(1):hover {
+  background: #f48024;
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(1):hover .fab {
+  color: #fff;
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(1):hover::after {
+  background: #df6a0b;
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(1):hover::before {
+  background: #aa5814;
+  transition: 0.3s;
+}
+
+
+
+
+
+.two .social-media a:nth-child(2):hover {
+  background: #fc4c02;
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(2):hover .fab {
+  color: #fff;
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(2):hover::after {
+  background: #bd3900;
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(2):hover::before {
+  background: #aa3c0d;
+  transition: 0.3s;
+}
+
+
+
+.two .social-media a:nth-child(3):hover {
+  background: #80A529;
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(3):hover .fas {
+  color: #fff;
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(3):hover::after {
+  background: rgb(79, 102, 27);
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(3):hover::before {
+  background: rgb(74, 97, 20);
+  transition: 0.3s;
+}
+
+
+.two .social-media a:nth-child(4):hover {
+  background: #000000;
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(4):hover .fab {
+  color: #fff;
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(4):hover::after {
+  background: #303030;
+  transition: 0.3s;
+}
+.two .social-media a:nth-child(4):hover::before {
+  background: #383838;
+  transition: 0.3s;
+}
+
+
+

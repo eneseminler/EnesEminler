@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+.clear {
+  clear: both;
+}
+
+html{
+  background-position-x: -50px;
+  background-color: black;
+}
+body{
+background-image: url("../img/30275.jpg")
+
+
+}
+.site{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  font-family: "Courier New", Courier, sans-serif;
+	color: green;
+
+}
+
+.header h1{
+  
+  font-size: 50px;
+}
+
+.site .content{
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+
+.site .content .left{
+  float: left;
+  width: 600px;
+}
+.site .content .right{
+  float: left;
+  width: 600px;
+} 
+
+.site .content .left p{
+  font-size: 20px;
+}
+
+.site .content .right .one{
+  
+}
+
+
+.site .content .right .two{
+ 
+ }
+
+.site .content .right .one .social-media{
+   
+  margin-left: 350px;
+}
+.site .content .right .two .social-media{
+  
+  margin-left: 450px;
+}
